@@ -1,0 +1,36 @@
+2019-12-01T00:38:21+00:00 CRITICAL Uncaught Error: Call to undefined function DISPLAY_ULTIMATE_PLUS() in C:\Users\kelly\Local Sites\studio5155\app\public\wp-content\themes\studio55\footer.php:17
+Stack trace:
+#0 C:\Users\kelly\Local Sites\studio5155\app\public\wp-includes\template.php(722): require_once()
+#1 C:\Users\kelly\Local Sites\studio5155\app\public\wp-includes\template.php(671): load_template('C:\\Users\\kelly\\...', true)
+#2 C:\Users\kelly\Local Sites\studio5155\app\public\wp-includes\general-template.php(76): locate_template(Array, true)
+#3 C:\Users\kelly\Local Sites\studio5155\app\public\wp-content\themes\studio55\campaign-page.php(41): get_footer()
+#4 C:\Users\kelly\Local Sites\studio5155\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\kelly\\...')
+#5 C:\Users\kelly\Local Sites\studio5155\app\public\wp-blog-header.php(19): require_once('C:\\Users\\kelly\\...')
+#6 C:\Users\kelly\Local Sites\studio5155\app\public\index.php(17): require('C:\\Users\\kelly\\...')
+#7 {main}
+  thrown in C:\Users\kelly\Local Sites\studio5155\app\public\wp-content\themes\studio55\footer.php on line 17
+
+2019-12-01T00:38:22+00:00 CRITICAL Uncaught Error: Call to undefined function DISPLAY_ULTIMATE_PLUS() in C:\Users\kelly\Local Sites\studio5155\app\public\wp-content\themes\studio55\footer.php:17
+Stack trace:
+#0 C:\Users\kelly\Local Sites\studio5155\app\public\wp-includes\template.php(722): require_once()
+#1 C:\Users\kelly\Local Sites\studio5155\app\public\wp-includes\template.php(671): load_template('C:\\Users\\kelly\\...', true)
+#2 C:\Users\kelly\Local Sites\studio5155\app\public\wp-includes\general-template.php(76): locate_template(Array, true)
+#3 C:\Users\kelly\Local Sites\studio5155\app\public\wp-content\themes\studio55\campaign-page.php(41): get_footer()
+#4 C:\Users\kelly\Local Sites\studio5155\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\kelly\\...')
+#5 C:\Users\kelly\Local Sites\studio5155\app\public\wp-blog-header.php(19): require_once('C:\\Users\\kelly\\...')
+#6 C:\Users\kelly\Local Sites\studio5155\app\public\index.php(17): require('C:\\Users\\kelly\\...')
+#7 {main}
+  thrown in C:\Users\kelly\Local Sites\studio5155\app\public\wp-content\themes\studio55\footer.php on line 17
+
+2019-12-01T00:39:08+00:00 CRITICAL Uncaught Error: Call to undefined function DISPLAY_ULTIMATE_PLUS() in C:\Users\kelly\Local Sites\studio5155\app\public\wp-content\themes\studio55\footer.php:17
+Stack trace:
+#0 C:\Users\kelly\Local Sites\studio5155\app\public\wp-includes\template.php(722): require_once()
+#1 C:\Users\kelly\Local Sites\studio5155\app\public\wp-includes\template.php(671): load_template('C:\\Users\\kelly\\...', true)
+#2 C:\Users\kelly\Local Sites\studio5155\app\public\wp-includes\general-template.php(76): locate_template(Array, true)
+#3 C:\Users\kelly\Local Sites\studio5155\app\public\wp-content\themes\studio55\front-page.php(83): get_footer()
+#4 C:\Users\kelly\Local Sites\studio5155\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\kelly\\...')
+#5 C:\Users\kelly\Local Sites\studio5155\app\public\wp-blog-header.php(19): require_once('C:\\Users\\kelly\\...')
+#6 C:\Users\kelly\Local Sites\studio5155\app\public\index.php(17): require('C:\\Users\\kelly\\...')
+#7 {main}
+  thrown in C:\Users\kelly\Local Sites\studio5155\app\public\wp-content\themes\studio55\footer.php on line 17
+

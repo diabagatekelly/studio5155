@@ -1,0 +1,556 @@
+/*Theme Name: Studio 5155
+Author: Kelly Diabagate
+Version: 1.0
+*/
+
+/* Global Styles */
+/* // Resetting from the mobile up!
+// 
+// Dropping the root* element font size to 14px is something
+// I do on almost all projects, a 16px font size on mobiles
+// is not normally needed. --> Only my opinion of course!
+//
+// At mobile size I used the scale "Major Second" from 
+// type-cale.com to set out the heading sizes as well as the
+// "Major Third" scale for the .display-* classes however my
+// technique was to begin the scale from the h1's front size.
+// To do this simply do the h1 font size * scale size. So in 
+// in this example it was 1.602 * 1.250 = 2.0025 I went with 
+// 2em to keep it simple.
+//
+//------------------------------------------------------------// */
+h1 {
+    font-size: 1.602em;
+}
+h2 {
+    font-size: 1.424em;
+}
+h3 {
+    font-size: 1.266em;
+    line-height: 1.5em;
+}
+h4 {
+    font-size: 1.125em;
+}
+h5 {
+    font-size: 0.889em;
+}
+h6 {
+    font-size: 0.79em;
+}
+.display-1 {
+    font-size: 3.906em;
+}
+.display-2 {
+    font-size: 3.125em;
+}
+.display-3 {
+    font-size: 2.5em;
+}
+.display-4 {
+    font-size: 2em;
+}
+
+/* // Medium devices (tablets, 48em and up)
+// 
+// At this point you have overridden Bootstraps rem's and are
+// into module based font sizes should you require it. 
+//
+// I took a while over this change because I felt that there
+// is no reason why I cant use a modified scale on another 
+// device size. So I did, the headings have now taken on
+// "Perfect Fourth" and the dislpay-* has been put to the
+// Bootstrap defaults.
+//
+//------------------------------------------------------------// */
+@media only screen and (min-width: 48em) {
+	h1 {
+	  font-size: 2.441em;
+	}
+	h2 {
+		font-size: 1.953em;
+	}
+	h3 {
+		font-size: 1.563em;
+	}
+	h4, h5 {
+		font-size: 1.25em;
+	}
+	.display-1 {
+		font-size: 6em;
+	}
+	.display-2 {
+		font-size: 5.5em;
+	}
+	.display-3 {
+		font-size: 4.5em;
+	}
+	.display-4 {
+		font-size: 3.5em;
+	}
+}
+
+/* // Large devices (desktops, 62em and up) */
+@media only screen and (min-width: 62em) {
+	html,
+	body {
+		font-size: 16px !important;
+		/* overflow-x: hidden;
+		overflow-y: auto; */
+	}
+}
+
+/* // Extra large devices (large desktops, 75em and up) */
+@media only screen and (min-width: 75em) {
+	html,
+	body {
+		font-size: 18px !important;
+	}
+}
+
+
+
+/* Header */
+
+.navbar-brand .img-fluid, .navbar-brand .woocommerce img, .navbar-brand .woocommerce-page img {
+	max-width: 5vw;
+}
+
+.bg-light {
+    background-color: white!important;
+}
+
+#menu-header {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#menu-header li {
+	display: inline-block;
+	margin: 0 0.5em;
+}
+
+.dashicons {
+	width: 30px;
+    height: 30px;
+	font-size: 30px;
+	margin-right: 0.2em;
+}
+
+.separator {
+	font-weight: bold;
+	margin-right: 0.2em;
+	font-size: 1.5em;
+	height: 2em;
+}
+
+.cart-contents:before {
+    font-family:WooCommerce;
+    content: "\e01d";
+    font-size:28px;
+    margin-top:10px;
+    font-style:normal;
+    font-weight:400;
+    padding-right:5px;
+    vertical-align: bottom;
+}
+.cart-contents:hover {
+    text-decoration: none;
+}
+.cart-contents-count {
+    color: #fff;
+    background-color: #2ecc71;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 1px 6px;
+    line-height: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: top;
+}
+
+/* Homepage */
+.jumbotron {
+	height: 90vh;
+}
+
+.display-4 {
+	margin-top: 15%;
+}
+
+.campaigns {
+	padding: 1em;
+}
+
+.campaigns .img-fluid {
+	max-width: 50%;
+	border-radius: 50%;
+}
+
+.campaigns h3 {
+font-style: italic;
+}
+
+.campaigns .hurrytimer-campaign {
+	text-align: center;
+}
+
+.campaigns .hurrytimer-timer {
+	justify-content: center;
+}
+
+/* Footer */
+
+.footer {
+	background-color: black;
+	padding: 1em;
+	color: goldenrod;
+}
+
+.footer h3 {
+	text-decoration: underline;
+}
+
+.footer .menu {
+	list-style: none;
+	padding-left: 0;
+}
+
+.sfsi_plus_widget, .sfsiplus_norm_row {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+/* .menu-footer-container ul li a {
+	color: goldenrod;
+} */
+
+/* Product Page */
+
+.woocommerce .woocommerce-breadcrumb{
+	display: none;
+}
+
+.woocommerce-product-gallery {
+	margin-left: 2em;
+	height: 20em;
+}
+
+.woocommerce-product-gallery__wrapper, .woocommerce-product-gallery__image {
+	height: 100%;
+}
+
+.woocommerce div.product .woocommerce-tabs .panel {
+    margin: 0 0 4em;
+    padding: 0 2em;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs {
+	display: none;
+}
+
+.product_meta {
+	display: none;
+}
+
+#sidebar {
+	display: none;
+}
+
+/* .sfsiaftrpstwpr {
+    margin: 1em 0 2em;
+} */
+
+/* About */
+.grid1 {
+    /* padding: 5em 2em;*/
+    background-color: rgba(150, 40, 27, 1); 
+    display: grid;
+    grid-template-columns: 5fr 1fr 5fr;
+    grid-template-rows: 1fr 6fr 2fr;
+    height: 100vh;
+    padding: 0;
+}
+
+.grid1left {
+grid-column: 1 / span 2;
+grid-row: 1 / span 3;
+background-color: white;
+color: black;
+padding: 2em 8em 2em 2em;
+}
+
+.grid1left .container, .grid2right .container {
+    height: 100%;
+}
+
+.container h2 {
+    margin-bottom: 1em;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.container h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.container button {
+    margin-top: 1em;
+}
+
+.grid1right {
+grid-column: 2 / span 2;
+grid-row: 2 / span 1;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr 6fr;
+    grid-template-rows: 1.5fr 1fr 6fr 1fr 1.5fr;
+    height: 100vh;
+    padding: 0;
+    background-color: rgba(150, 40, 27, 1); 
+}
+
+.grid2left {
+grid-column: 2 / span 1;
+grid-row: 2 / span 2;
+}
+
+.grid2right {
+grid-column: 4 / span 1;
+grid-row: 3 / span 2;
+background-color: white;
+color: black;
+padding: 1em;
+}
+
+.container .img-fluid {
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (max-height: 400px) {
+    .grid1, .grid2 {
+        height: 100vh;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr ;
+    }
+
+    .grid1left, .grid2left {
+        padding: 0.5em;
+        grid-column: 1 / span 1;
+        grid-row: 1 / span 1;
+    }
+
+    .grid1right, .grid2right {
+        padding: 0.5em;
+        grid-column: 2 / span 1;
+        grid-row: 1 / span 1;
+    }
+
+    .container h3 {
+        font-size: 1em;
+    } 
+}
+
+@media only screen and (max-width: 450px) {
+    /* h2 {
+        font-size: 1.2em;
+    }     */
+
+    .container h3 {
+        font-size: 0.8em;
+        line-height: 1.5;
+    } 
+    .grid1, .grid2 {
+        height: 100vh;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 4fr 6fr;
+    }
+
+    .grid1left, .grid2right {
+        padding: 0.5em;
+        grid-column: 1 / span 1;
+        grid-row: 3 / span 1;
+    }
+
+    .grid1right, .grid2left {
+        padding: 0.5em;
+        grid-column: 1 / span 1;
+        grid-row: 2 / span 1;
+    }
+
+    .container .btn-lg {
+        padding: .25rem .5rem;
+        font-size: .875rem;
+        line-height: 1.5;
+        border-radius: .2rem;
+    }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 750px) {
+    .container h3 {
+        font-size: 0.8em;
+        line-height: 1.5;
+    }
+
+    .grid2right {
+        padding: 1em;
+    }
+
+    .container h2 {
+        font-size: 1.2em;
+    }
+
+    .container .btn-lg {
+        padding: .25rem .5rem;
+        font-size: .875rem;
+        line-height: 1.5;
+        border-radius: .2rem;
+    }
+}
+
+@media only screen and (min-width: 750px) and (max-width: 800px) {
+    .grid1, .grid2 {
+        height: 50vh;
+    }
+    
+    .grid1left {
+        padding: 1em 4em 0 0;
+    } 
+
+    .container h3 {
+        font-size: 1.1em;
+    }
+
+    .container h2 {
+        font-size: 1.3em;
+    }
+
+    .container .btn-lg {
+        padding: .25rem .5rem;
+        font-size: .875rem;
+        line-height: 1.5;
+        border-radius: .2rem;
+    }
+
+}
+
+@media only screen and (min-width: 800px) {
+    .container h2 {
+        font-size: 1.3em;
+    }
+
+    .container h3 {
+        font-size: 1em;
+    }
+
+    .container .btn-lg {
+        padding: .25rem .5rem;
+        font-size: .875rem;
+        line-height: 1.5;
+        border-radius: .2rem;
+    }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1200px){
+    .grid1, .grid2 {
+        height: 100vh;
+    }
+
+    .container h2 {
+        font-size: 1.7em;
+    }
+
+    .container h3 {
+        font-size: 1.5em;
+    }
+
+    @media only screen and (min-height: 800px) {
+        .grid1, .grid2 {
+            height: 50vh;
+        }
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .container h2 {
+        font-size: 2.5em;
+    }
+
+    .container h3 {
+        font-size: 1.7em;
+    }
+
+    .container .btn-lg {
+        font-size: 2rem;
+    }
+}
+
+/* Events */
+
+.events-title {
+	height: 30vh;
+}
+
+.blog-container {
+	padding: 2em;
+}
+
+.featured-blog {
+	padding: 1em;
+	text-align: left;
+}
+
+.featured-blog .img-fluid {
+	max-width: 50%;
+}
+
+.blog-post {
+	margin: 0 0 1em 1em;
+	padding: 1em;
+}
+
+.regular-posts {
+	padding: 1em;
+	min-width: 100%;
+}
+
+.sidebar {
+  background-color: rgb(171, 171, 231); 
+  height: auto;
+  padding: 1em;
+}
+
+.single-post-content .wp-video {
+	margin: 0 auto;
+}
+
+/* Shopping */
+.shop-page {
+	padding: 0;
+}
+
+.shop-page .page-title {
+	text-align: center;
+	padding-top: 50;
+	width: 100%;
+	height: 30vh;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+	url('/images/header.jpg'); 
+	background-repeat: no-repeat; 
+	background-size: cover;
+}
+
+.shop-page .woocommerce-result-count, .shop-page .woocommerce-ordering, .woocommerce ul.products {
+	margin: 1em 2em;
+}
+
+/* Cart, Contact, Other pages */
+
+.pages {
+	padding: 0 2em;
+}

@@ -1,0 +1,20 @@
+2019-11-28T21:39:24+00:00 CRITICAL syntax error, unexpected '?>', expecting '(' in C:\Users\kelly\Local Sites\studio5155\app\public\wp-content\themes\studio55\functions.php on line 38
+
+2019-11-28T21:52:55+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on array in C:\Users\kelly\Local Sites\studio5155\app\public\wp-content\themes\studio55\front-page.php:8
+Stack trace:
+#0 C:\Users\kelly\Local Sites\studio5155\app\public\wp-includes\template-loader.php(98): include()
+#1 C:\Users\kelly\Local Sites\studio5155\app\public\wp-blog-header.php(19): require_once('C:\\Users\\kelly\\...')
+#2 C:\Users\kelly\Local Sites\studio5155\app\public\index.php(17): require('C:\\Users\\kelly\\...')
+#3 {main}
+  thrown in C:\Users\kelly\Local Sites\studio5155\app\public\wp-content\themes\studio55\front-page.php on line 8
+
+2019-11-28T21:53:28+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on array in C:\Users\kelly\Local Sites\studio5155\app\public\wp-content\themes\studio55\front-page.php:9
+Stack trace:
+#0 C:\Users\kelly\Local Sites\studio5155\app\public\wp-includes\template-loader.php(98): include()
+#1 C:\Users\kelly\Local Sites\studio5155\app\public\wp-blog-header.php(19): require_once('C:\\Users\\kelly\\...')
+#2 C:\Users\kelly\Local Sites\studio5155\app\public\index.php(17): require('C:\\Users\\kelly\\...')
+#3 {main}
+  thrown in C:\Users\kelly\Local Sites\studio5155\app\public\wp-content\themes\studio55\front-page.php on line 9
+
+2019-11-28T22:59:36+00:00 CRITICAL syntax error, unexpected '4' (T_LNUMBER), expecting ')' in C:\Users\kelly\Local Sites\studio5155\app\public\wp-content\themes\studio55\front-page.php on line 27
+
