@@ -26,8 +26,8 @@ if(file_exists(dirname(__FILE__) . '/local.php')) {
 	define( 'DB_HOST', 'localhost' );
 } else {
 	//**LIve database (netfirms) */
-	define( 'DB_NAME', 'studio5155' );
-	define( 'DB_USER', 'studio5155' );
+	define( 'DB_NAME', 'studio5155org_mauj_jjdelnmelhrym' );
+	define( 'DB_USER', 'kgvdfvpbofmvaees' );
 	define( 'DB_PASSWORD', 'babyAadam#01' );
 	define( 'DB_HOST', 'localhost' );
 }
